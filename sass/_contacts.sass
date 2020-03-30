@@ -1,0 +1,60 @@
+.contacts
+  position: relative
+  &__map
+    background: #101010 url(../img/map.jpg) center no-repeat
+    background-size: cover
+    height: 515px
+  &-block
+    position: absolute
+    top: 80px
+    right: 10%
+    background-color: #ffffff
+    color: $text-color
+    padding: 60px
+    &__title
+      font-family: $font-bold
+      font-size: 20px
+      text-transform: uppercase
+      margin-bottom: 53px
+    &__phone
+      font-size: 14px
+      font-family: $font-medium
+      text-transform: uppercase
+      margin-bottom: 30px
+      position: relative
+      &:before
+        content: ''
+        display: block
+        width: 20px
+        height: 20px
+        position: absolute
+        top: 0
+        left: -30px
+        background: url(../img/contacts/phone.png) center no-repeat
+    &__address
+      position: relative
+      font-size: 14px
+      max-width: 230px
+      margin-bottom: 40px
+      &:before
+        content: ''
+        display: block
+        width: 20px
+        height: 20px
+        position: absolute
+        top: 0
+        left: -30px
+        background: url(../img/contacts/address.png) center no-repeat
+    &__email
+      position: relative
+      font-size: 14px
+      text-decoration: underline
+      &:before
+        content: ''
+        display: block
+        width: 20px
+        height: 20px
+        position: absolute
+        top: 0
+        left: -30px
+        background: url(../img/contacts/email.png) center no-repeat

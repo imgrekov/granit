@@ -1,0 +1,113 @@
+// xs (экраны меньше 576px)
+@media (max-width: 575.98px)
+  .delivery
+    &-cta 
+      flex-direction: column
+      &__button
+        margin-right: 0
+        margin-bottom: 10px
+      &__or
+        margin-right: 0
+        margin-bottom: 10px
+
+// sm (от 576px до up)
+@media (min-width: 576px) and (max-width: 767.98px)
+  .delivery
+    &-desc
+      &__title
+        font-size: 32px
+
+// md (от 768px до 991.98px)
+@media (min-width: 768px) and (max-width: 991.98px)
+  body
+    border: none
+
+// lg (от 992px до 1199.98px)
+@media (min-width: 992px) and (max-width: 1199.98px)
+  body
+    border: none
+
+
+// xl (от 1200px и больше)
+@media (min-width: 1200px)
+  body
+    border: none
+
+
+// custom стили
+
+@media (max-width: 767.98px)
+  .product
+    &-card 
+      &__text
+        // max-width: 768px
+
+  .header
+    &-logo
+      margin-bottom: 25px
+      justify-content: center
+      &__desc
+        font-size: 10px
+      &__text
+        font-size: 16px
+    &-call
+      justify-content: center
+      &__phone
+        &_number
+          font-size: 12px
+      &__button
+        font-size: 11px
+
+  .main
+    padding: 90px 0
+    margin-top: 25px
+
+  .delivery
+    text-align: center
+
+  .contacts
+    &__map
+      display: none
+    &-block 
+      position: static
+      display: flex
+      flex-direction: column
+      align-items: center
+  .footer
+    &-about
+      margin-bottom: 25px
+    &-logo
+      justify-content: center
+      margin-bottom: 10px
+    &-cta
+      text-align: center
+  .resent-text
+    text-align: center
+
+  .header-nav
+    margin-top: 0
+    transition: all 0.5s
+    right: -1000px
+    position: fixed
+    top: 0
+    bottom: 0
+
+  .mobile
+    &-nav
+      display: block
+
+@media (max-width: 992px)
+  .product
+    &-card
+      margin-bottom: 25px
+
+@media (max-width: 359px)
+  .services
+    &-block
+      &__img
+        margin-left: -20px
+
+
+
+
+        
