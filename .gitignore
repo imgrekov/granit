@@ -1,27 +1,6 @@
 
-# Created by https://www.gitignore.io/api/windows,octobercms
-# Edit at https://www.gitignore.io/?templates=windows,octobercms
-
-### OctoberCms ###
-/bootstrap/compiled.php
-/vendor
-composer.phar
-.DS_Store
-.idea
-.env
-.env.*.php
-.env.php
-php_errors.log
-nginx-error.log
-nginx-access.log
-nginx-ssl.access.log
-nginx-ssl.error.log
-php-errors.log
-sftp-config.json
-selenium.php
-
-# for netbeans compiler
-nbproject
+# Created by https://www.gitignore.io/api/windows
+# Edit at https://www.gitignore.io/?templates=windows
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -49,4 +28,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/windows,octobercms
+# End of https://www.gitignore.io/api/windows
